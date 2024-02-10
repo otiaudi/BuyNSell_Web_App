@@ -26,45 +26,37 @@ The project follows a modular structure:
 - static: Static assets (CSS, JavaScript, images).
 - templates: HTML templates.
 - tests: Unit and integration tests.
-- Getting Started
+## Getting Started
 
-Clone the repository.
-
-- bash
-- Copy code
+1.Clone the repository
 - //$ git clone https://github.com/your-username/BuyNsell-web-app.git
 - //$ cd buy-and-sell-web-app
-- Install dependencies.
 
-- bash
-- Copy code
+2.Install dependencies.
 - pip install -r requirements.txt
-- Set up the database.
 
-bash
-Copy code
-python manage.py db init
-python manage.py db migrate
-python manage.py db upgrade
-Run the application.
+3. Set up the database.
+- python manage.py db init
+- python manage.py db migrate
+- python manage.py db upgrade
 
-bash
-Copy code
-python run.py
-Open http://localhost:5000 in your web browser.
+4. Run the application.
+- python run.py
+
+5. Open http://localhost:5000 in your web browser.
 
 ## Features
-- User authentication
+- _User authentication
 - Product listings
-- Transaction tracking
+- Transaction tracking_
 
 ## Database
-The application uses a MySQL database managed through SQLAlchemy. Database models are defined in the models.py file.
+The application uses a MySQL database managed through SQLAlchemy. Database models are defined in the **_models.py_** file.
 
 ## Branching and Merging Strategy
 The project follows the GitHub flow:
 
-- main: Represents the production-ready code.
+-** _main: _ ** Represents the production-ready code.
 - Feature branches: Created for new features or improvements.
 - Pull Requests: Each feature branch merged into main via pull requests with code reviews.
 
