@@ -56,7 +56,7 @@ The application uses a MySQL database managed through SQLAlchemy. Database model
 ## Branching and Merging Strategy
 The project follows the GitHub flow:
 
--** _main: _ ** Represents the production-ready code.
+**-main: _ ** Represents the production-ready code.
 - Feature branches: Created for new features or improvements.
 - Pull Requests: Each feature branch merged into main via pull requests with code reviews.
 
